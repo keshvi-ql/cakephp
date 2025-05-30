@@ -1,0 +1,643 @@
+2025-04-24 04:15:51 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in C:\xampp\htdocs\cakephp\cms\config\bootstrap.php on line 172 in C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Utility\Security.php on line 305
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\config\bootstrap.php:172
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:174
+- C:\xampp\htdocs\cakephp\cms\src\Application.php:47
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:195
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:133
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+2025-04-24 04:17:56 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in C:\xampp\htdocs\cakephp\cms\config\bootstrap.php on line 172 in C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Utility\Security.php on line 305
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\config\bootstrap.php:172
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:174
+- C:\xampp\htdocs\cakephp\cms\src\Application.php:47
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:195
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:133
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+2025-04-24 04:18:19 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in C:\xampp\htdocs\cakephp\cms\config\bootstrap.php on line 172 in C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Utility\Security.php on line 305
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\config\bootstrap.php:172
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:174
+- C:\xampp\htdocs\cakephp\cms\src\Application.php:47
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:195
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:133
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+2025-04-24 12:26:26 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake.metafields' doesn't exist in C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 160
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\ORM\Table.php:528
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake.metafields' doesn't exist in C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Connection.php:414
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Connection.php:409
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\ORM\Table.php:528
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+2025-04-24 12:26:40 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake.metafield' doesn't exist in C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 160
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\ORM\Table.php:528
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake.metafield' doesn't exist in C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Connection.php:414
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Connection.php:409
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\ORM\Table.php:528
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+2025-04-25 03:58:05 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake.c' doesn't exist in C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 160
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\ORM\Table.php:528
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake.c' doesn't exist in C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Connection.php:414
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Connection.php:409
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\ORM\Table.php:528
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+2025-04-25 07:20:45 warning: Undefined array key "database"
+Trace:
+Migrations\Command\Phinx\Migrate->getConfig() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 346
+Phinx\Console\Command\AbstractCommand->loadManager() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 130
+Phinx\Console\Command\AbstractCommand->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 66
+Migrations\Command\Phinx\Migrate->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php, line 64
+Phinx\Console\Command\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 37
+Migrations\Command\Phinx\Migrate->parentExecute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php, line 85
+Migrations\Command\Phinx\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php, line 326
+Symfony\Component\Console\Command\Command->run() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 1078
+Symfony\Component\Console\Application->doRunCommand() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 324
+Symfony\Component\Console\Application->doRun() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 175
+Symfony\Component\Console\Application->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 126
+Migrations\Command\MigrationsCommand->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 198
+Migrations\Command\MigrationsCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\cakephp\cms\bin\cake.php, line 12
+[main]
+
+2025-04-25 07:20:45 error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 98
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 86
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:86
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+2025-04-25 07:22:41 warning: Undefined array key "database"
+Trace:
+Migrations\Command\Phinx\Migrate->getConfig() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 346
+Phinx\Console\Command\AbstractCommand->loadManager() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 130
+Phinx\Console\Command\AbstractCommand->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 66
+Migrations\Command\Phinx\Migrate->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php, line 64
+Phinx\Console\Command\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 37
+Migrations\Command\Phinx\Migrate->parentExecute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php, line 85
+Migrations\Command\Phinx\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php, line 326
+Symfony\Component\Console\Command\Command->run() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 1078
+Symfony\Component\Console\Application->doRunCommand() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 324
+Symfony\Component\Console\Application->doRun() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 175
+Symfony\Component\Console\Application->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 126
+Migrations\Command\MigrationsCommand->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 198
+Migrations\Command\MigrationsCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\cakephp\cms\bin\cake.php, line 12
+[main]
+
+2025-04-25 07:22:41 error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 98
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 86
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:86
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+2025-04-25 07:27:59 warning: Undefined array key "database"
+Trace:
+Migrations\Command\Phinx\Migrate->getConfig() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 346
+Phinx\Console\Command\AbstractCommand->loadManager() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 130
+Phinx\Console\Command\AbstractCommand->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 66
+Migrations\Command\Phinx\Migrate->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php, line 64
+Phinx\Console\Command\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 37
+Migrations\Command\Phinx\Migrate->parentExecute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php, line 85
+Migrations\Command\Phinx\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php, line 326
+Symfony\Component\Console\Command\Command->run() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 1078
+Symfony\Component\Console\Application->doRunCommand() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 324
+Symfony\Component\Console\Application->doRun() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 175
+Symfony\Component\Console\Application->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 126
+Migrations\Command\MigrationsCommand->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 198
+Migrations\Command\MigrationsCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\cakephp\cms\bin\cake.php, line 12
+[main]
+
+2025-04-25 07:27:59 error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 98
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 86
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:86
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+2025-04-25 07:31:21 warning: Undefined array key "database"
+Trace:
+Migrations\Command\Phinx\Migrate->getConfig() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 346
+Phinx\Console\Command\AbstractCommand->loadManager() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 130
+Phinx\Console\Command\AbstractCommand->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 66
+Migrations\Command\Phinx\Migrate->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php, line 64
+Phinx\Console\Command\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 37
+Migrations\Command\Phinx\Migrate->parentExecute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php, line 85
+Migrations\Command\Phinx\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php, line 326
+Symfony\Component\Console\Command\Command->run() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 1078
+Symfony\Component\Console\Application->doRunCommand() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 324
+Symfony\Component\Console\Application->doRun() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 175
+Symfony\Component\Console\Application->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 126
+Migrations\Command\MigrationsCommand->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 198
+Migrations\Command\MigrationsCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\cakephp\cms\bin\cake.php, line 12
+[main]
+
+2025-04-25 07:31:21 error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 98
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 86
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:86
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+2025-04-25 08:43:50 warning: Undefined array key "database"
+Trace:
+Migrations\Command\Phinx\Migrate->getConfig() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 346
+Phinx\Console\Command\AbstractCommand->loadManager() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 130
+Phinx\Console\Command\AbstractCommand->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 66
+Migrations\Command\Phinx\Migrate->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php, line 64
+Phinx\Console\Command\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 37
+Migrations\Command\Phinx\Migrate->parentExecute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php, line 85
+Migrations\Command\Phinx\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php, line 326
+Symfony\Component\Console\Command\Command->run() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 1078
+Symfony\Component\Console\Application->doRunCommand() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 324
+Symfony\Component\Console\Application->doRun() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 175
+Symfony\Component\Console\Application->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 126
+Migrations\Command\MigrationsCommand->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 198
+Migrations\Command\MigrationsCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\cakephp\cms\bin\cake.php, line 12
+[main]
+
+2025-04-25 08:43:51 error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 98
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 86
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:86
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+2025-04-25 08:46:12 warning: Undefined array key "database"
+Trace:
+Migrations\Command\Phinx\Migrate->getConfig() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 346
+Phinx\Console\Command\AbstractCommand->loadManager() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 130
+Phinx\Console\Command\AbstractCommand->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 66
+Migrations\Command\Phinx\Migrate->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php, line 64
+Phinx\Console\Command\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 37
+Migrations\Command\Phinx\Migrate->parentExecute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php, line 85
+Migrations\Command\Phinx\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php, line 326
+Symfony\Component\Console\Command\Command->run() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 1078
+Symfony\Component\Console\Application->doRunCommand() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 324
+Symfony\Component\Console\Application->doRun() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 175
+Symfony\Component\Console\Application->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 126
+Migrations\Command\MigrationsCommand->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 198
+Migrations\Command\MigrationsCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\cakephp\cms\bin\cake.php, line 12
+[main]
+
+2025-04-25 08:46:12 error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 98
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 86
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:86
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+2025-04-25 08:54:58 warning: Undefined array key "database"
+Trace:
+Migrations\Command\Phinx\Migrate->getConfig() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 346
+Phinx\Console\Command\AbstractCommand->loadManager() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 130
+Phinx\Console\Command\AbstractCommand->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 66
+Migrations\Command\Phinx\Migrate->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php, line 64
+Phinx\Console\Command\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 37
+Migrations\Command\Phinx\Migrate->parentExecute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php, line 85
+Migrations\Command\Phinx\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php, line 326
+Symfony\Component\Console\Command\Command->run() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 1078
+Symfony\Component\Console\Application->doRunCommand() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 324
+Symfony\Component\Console\Application->doRun() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 175
+Symfony\Component\Console\Application->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 126
+Migrations\Command\MigrationsCommand->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 198
+Migrations\Command\MigrationsCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\cakephp\cms\bin\cake.php, line 12
+[main]
+
+2025-04-25 08:54:58 error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 98
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 86
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:86
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+2025-04-25 09:14:11 warning: Undefined array key "database"
+Trace:
+Migrations\Command\Phinx\Migrate->getConfig() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 346
+Phinx\Console\Command\AbstractCommand->loadManager() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php, line 130
+Phinx\Console\Command\AbstractCommand->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 66
+Migrations\Command\Phinx\Migrate->bootstrap() C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php, line 64
+Phinx\Console\Command\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php, line 37
+Migrations\Command\Phinx\Migrate->parentExecute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php, line 85
+Migrations\Command\Phinx\Migrate->execute() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php, line 326
+Symfony\Component\Console\Command\Command->run() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 1078
+Symfony\Component\Console\Application->doRunCommand() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 324
+Symfony\Component\Console\Application->doRun() C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php, line 175
+Symfony\Component\Console\Application->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 126
+Migrations\Command\MigrationsCommand->execute() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php, line 198
+Migrations\Command\MigrationsCommand->run() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\cakephp\cms\bin\cake.php, line 12
+[main]
+
+2025-04-25 09:14:11 error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 98
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 86
+Stack Trace:
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:86
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\cakephp\cms\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Command\Command.php:326
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:1078
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:324
+- C:\xampp\htdocs\cakephp\cms\vendor\symfony\console\Application.php:175
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cakephp\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cakephp\cms\bin\cake.php:12
+- [main]:
+
